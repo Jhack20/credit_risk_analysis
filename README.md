@@ -23,7 +23,12 @@ credit_risk_analysis/
 
 ## Resultados Clave
 
-### 1. Estructura de Respuesta de Gemini
+### 1. Lectura de Datos
+![Logo del Proyecto](https://github.com/Jhack20/credit_risk_analysis/blob/main/descarga.png)
+![Logo del Proyecto](https://github.com/Jhack20/credit_risk_analysis/blob/main/descarga%20(2).png)
+![Logo del Proyecto](https://github.com/Jhack20/credit_risk_analysis/blob/main/descarga%20(5).png)
+
+### 2. Estructura de Respuesta de Gemini
 La API de Gemini genera descripciones detalladas basadas en los datos ingresados. Ejemplo de la estructura de respuesta:
 
 ```
@@ -48,7 +53,7 @@ GenerateContentResponse(
 )
 ```
 
-### 2. Ejemplo de Descripciones Generadas
+### 3. Ejemplo de Descripciones Generadas
 Las descripciones avanzadas generadas por Gemini se almacenan en una columna adicional `advanced_description` del conjunto de datos:
 
 | advanced_description | risk_score |
@@ -59,7 +64,9 @@ Las descripciones avanzadas generadas por Gemini se almacenan en una columna adi
 | Este conjunto de datos describe a un hombre de... | 1 |
 | Esta entrada de datos describe a un hombre de... | 0 |
 
-### 3. Estadísticas del Conjunto de Datos
+![Logo del Proyecto](https://github.com/Jhack20/credit_risk_analysis/blob/main/descarga%20(4).png)
+
+### 4. Estadísticas del Conjunto de Datos
 
 #### Información General
 
@@ -91,7 +98,7 @@ Data columns (total 11 columns):
 | Duration            | 20.90   | 12.05   | 4   | 72  |
 | risk_score          | 1.22    | 1.21    | 0   | 7   |
 
-### 4. Distribuciones
+### 5. Distribuciones
 
 - **Distribución de Edad:**
 
@@ -111,7 +118,9 @@ Data columns (total 11 columns):
 | 2          | 189        |
 | ...        | ...        |
 
-### 5. Modelo de Clasificación
+![Logo del Proyecto](https://github.com/Jhack20/credit_risk_analysis/blob/main/descarga%20(1).png)
+
+### 6. Modelo de Clasificación
 
 Se entrenó un modelo de bosque aleatorio con hiperparámetros optimizados:
 
